@@ -27,3 +27,8 @@ def voltar_menu():
     
 def limpar_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
+    
+titulo_personalizado()
+mostrar_opcoes()
+resposta_menu = int(input(''))
+limpar_tela()
