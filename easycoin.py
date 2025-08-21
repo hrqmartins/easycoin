@@ -1,3 +1,5 @@
+import os
+
 def titulo_personalizado():
     print('\033[1;31m')  # Vermelho escuro (bordas)
     print('╔════════════════════════════════════════╗')
@@ -19,6 +21,9 @@ def mostrar_opcoes():
     
 def voltar_menu():
     input('Pressione ENTER para voltar ao menu')
-    limpar_tela()
     titulo_personalizado()
+    limpar_tela()
     mostrar_opcoes()
+    
+def limpar_tela():
+    os.system('cls' if os.name == 'nt' else 'clear')
