@@ -10,3 +10,9 @@ def titulo_personalizado():
     print('║                                        ║')
     print('╚════════════════════════════════════════╝')
     print('\033[0m')  # Volta para a cor padrão do terminal
+    
+def mostrar_opcoes():
+    print('\033[1;37m1.\033[0m Adicionar Moedas')
+    print('\033[1;37m2.\033[0m Remover Moedas')
+    print('\033[1;37m3.\033[0m Ver Cofrinho')
+    print('\033[1;37m4.\033[0m Sair')
