@@ -44,3 +44,5 @@ dez_centavos_valor = dez_centavos * 0.10
 vinte_cinco_centavos_valor = vinte_cinco_centavos * 0.25
 cinquenta_centavos_valor = cinquenta_centavos * 0.50
 um_real_valor = um_real * 1.00
+
+total_moedas = cinco_centavos_valor + dez_centavos_valor + vinte_cinco_centavos_valor + cinquenta_centavos_valor + um_real_valor
