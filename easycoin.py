@@ -57,3 +57,14 @@ def adicionar_moedas():
         f'Total em R${total_moedas} reais.'
     )    
     voltar_menu()
+    
+def opcoes():
+    if resposta_menu == 1:
+        adicionar_moedas()
+    elif resposta_menu == 2:
+        pass
+    elif resposta_menu == 3:
+        pass
+    elif resposta_menu == 4:
+        pass
+opcoes()
