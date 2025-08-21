@@ -38,3 +38,9 @@ dez_centavos = int(input('Digite a quantidade de moedas de R$0,10 centavos: '))
 vinte_cinco_centavos = int(input('Digite a quantidade de moedas de R$0,25 centavos: '))
 cinquenta_centavos = int(input('Digite a quantidade de moedas de R$0,50 centavos: '))
 um_real = int(input('Digite a quantidade de moedas de R$1,00 real: '))
+
+cinco_centavos_valor = cinco_centavos * 0.05
+dez_centavos_valor = dez_centavos * 0.10
+vinte_cinco_centavos_valor = vinte_cinco_centavos * 0.25
+cinquenta_centavos_valor = cinquenta_centavos * 0.50
+um_real_valor = um_real * 1.00
