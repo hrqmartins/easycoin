@@ -16,3 +16,9 @@ def mostrar_opcoes():
     print('\033[1;37m2.\033[0m Remover Moedas')
     print('\033[1;37m3.\033[0m Ver Cofrinho')
     print('\033[1;37m4.\033[0m Sair')
+    
+def voltar_menu():
+    input('Pressione ENTER para voltar ao menu')
+    limpar_tela()
+    titulo_personalizado()
+    mostrar_opcoes()
