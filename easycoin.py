@@ -21,8 +21,8 @@ def mostrar_opcoes():
     
 def voltar_menu():
     input('Pressione ENTER para voltar ao menu')
-    titulo_personalizado()
     limpar_tela()
+    titulo_personalizado()
     mostrar_opcoes()
     
 def limpar_tela():
