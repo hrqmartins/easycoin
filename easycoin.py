@@ -46,3 +46,14 @@ cinquenta_centavos_valor = cinquenta_centavos * 0.50
 um_real_valor = um_real * 1.00
 
 total_moedas = cinco_centavos_valor + dez_centavos_valor + vinte_cinco_centavos_valor + cinquenta_centavos_valor + um_real_valor
+
+def adicionar_moedas():
+    print(
+        f'Você adicionou {cinco_centavos} moedas de R$0,05 centavos, '
+        f'{dez_centavos} moedas de R$0,10 centavos, '
+        f'{vinte_cinco_centavos} moedas de R$0,25 centavos, '
+        f'{cinquenta_centavos} moedas de R$0,50 centavos, '
+        f'{um_real} moedas de R$1,00 real'
+        f'Total em R${total_moedas} reais.'
+    )    
+    voltar_menu()
